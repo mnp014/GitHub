@@ -1,0 +1,8 @@
+ # to check for the changes made to local 
+  $git status                          
+
+# if any changes are present , to commit those changes
+
+  $git commit -a    
+      or
+  $git add --all && git commit -m "comment"         // to commit those changes
