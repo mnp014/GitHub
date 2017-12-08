@@ -1,0 +1,4 @@
+$ git checkout -b NewBranchName
+
+--------------------------------------
+Switched to a new branch 'NewBranchName'
