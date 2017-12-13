@@ -1,0 +1,11 @@
+push an existing repository from the command line to remote repo
+----------------------------------------------------------------
+git remote add origin https://github.com/mnp014/DeleteIt.git
+git push -u origin master
+________________________________________________________________
+                        Or
+________________________________________________________________
+import code from another repository
+----------------------------------------------------------------
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+________________________________________________________________ 
