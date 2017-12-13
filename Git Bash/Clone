@@ -1,4 +1,10 @@
+To clone master-branch
 $git clone https://github.com/mnp014/GitHub.git
+_______________________________________________________________________________________
+To clone a particular branch say "mybranch"
+---------------------------------------------------------------------------------------
+git clone -b mybranch --single-branch https://github.com/mnp014/GitHub.git
+_______________________________________________________________________________________
 
 
 #OPTIONS:
@@ -7,4 +13,4 @@ $git clone https://github.com/mnp014/GitHub.git
   --no-hardlinks
   --shared
   -s
-  
+  --single-branch
