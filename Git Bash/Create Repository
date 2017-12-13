@@ -1,0 +1,17 @@
+
+Create a new Repository
+---------------------------------------------------------------
+                $git init 
+_______________________________________________________________
+Create a new repository on the command line
+
+
+// create Folder "DeleteIt" which has README.md:
+
+echo "# DeleteIt" >> README.md                                        //Display if file exits
+git init                                                              //create new repository
+git add README.md                                                     //stage changes
+git commit -m "first commit"                                          //commit changes
+git remote add origin https://github.com/mnp014/DeleteIt.git          //link local to remote repo using remote repo URL
+git push -u origin master                                             //push changes
+_______________________________________________________________
