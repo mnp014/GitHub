@@ -1,0 +1,11 @@
+Use "git branch" command with various options.
+
+$ git branch
+_________________________________________________________
+
+$ git branch -a
+-a shows all local and remote branches,
+_________________________________________________________
+$ git branch -r
+-r shows only remote branches.
+_________________________________________________________
