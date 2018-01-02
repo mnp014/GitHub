@@ -1,0 +1,27 @@
+Git rebase is used to make the branching paths in history cleaner and repository structure linear.
+It is also used to keep the branches created by you private,
+as after rebasing and pushing the changes to server,if you delete your branch, there will be no evidence of branch you have worked upon.
+______________________________________________________
+
+$ git rebase
+Git rebase in standard mode will automatically take the commits in your current working branch and apply them to the head of the passed branch.
+______________________________________________________
+$ git rebase --interactive 
+Running git rebase with the -i flag begins an interactive rebasing session. Instead of blindly moving all of the commits to the new base, interactive rebasing gives you the opportunity to alter individual commits in the process. This lets you clean up history by removing, splitting, and altering an existing series of commits. It's like Git commit --amend on steroids.
+______________________________________________________
+git rebase -- d 
+means during playback the commit will be discarded from the final combined commit block.
+______________________________________________________
+git rebase -- p 
+leaves the commit as is. It will not modify the commit's message or content and will still be an individual commit in the branches history.
+______________________________________________________
+git rebase -- x 
+during playback executes a command line shell script on each marked commit. A useful example would be to run your codebase's test suite on specific commits, which may help identify regressions during a rebase.
+____________________________________________________________________
+
+
+
+
+
+
+Refer https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase for detailed info
