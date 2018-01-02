@@ -1,0 +1,7 @@
+determine the URL that a local Git repository was originally cloned from:
+
+      $ git remote get-url origin
+_________________________________________________________________
+      $git remote show origin
+_________________________________________________________________
+      $git remote -v
