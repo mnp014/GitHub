@@ -1,6 +1,6 @@
 push an existing repository from the command line to remote repo
 ----------------------------------------------------------------
-git remote add origin https://github.com/mnp014/DeleteIt.git
+git remote add origin < https://github.com/mnp014/sample.git >
 git push -u origin master
 ________________________________________________________________
                         Or
