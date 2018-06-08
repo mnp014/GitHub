@@ -1,0 +1,25 @@
+CASE 1:
+      If the branch is only present in your local environment then just delete it by the following steps;
+****************************************************************
+#Step 1: View all the local branches:
+    $   git branch
+-------------------------------------------------------
+the output will be like;
+
+* your_local_branch (which you want to delete)
+  master
+________________________________________________________________
+#Step 2: Do git checkout master:
+    $   git checkout master
+________________________________________________________________    
+#Step 3: Delete branch locally:
+
+    $   git branch -d <Local_Branch_To_Be_Deleted>
+________________________________________________________________
+CASE 2:
+      If you want to delete the remote branch ( if the branch has been pushed to git repo )
+****************************************************************
+#Follow the above 3 Steps:
+#Step 4:
+    $  git push origin :your_local_branch (if it is pushed)
+________________________________________________________________
