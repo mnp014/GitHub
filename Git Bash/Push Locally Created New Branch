@@ -1,0 +1,8 @@
+#1 Create a New branch locally
+______________________________________________________
+#2 Add orgin
+______________________________________________________
+#3 Push Locally created branch
+
+$git push -u  origin <Locally_Created_New_Branch>
+______________________________________________________
