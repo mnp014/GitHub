@@ -1,12 +1,12 @@
-## Show local branches:
+- Show local branches:
 ```
                               $ git branch
 ```
-## Switch to a banch
+- Switch to a banch
 ```
                               $ git checkout master
 ```
-## Switch to Other-banches
+- Switch to Other-banches
 ```
                               $ git checkout Other-banches
 ```
