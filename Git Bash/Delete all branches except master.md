@@ -10,3 +10,11 @@ git branch | grep -v "master\|develop" | xargs git branch -D
 ```
 alias gbr="git branch | grep -v "master" | xargs git branch -D"
 ```
+ - If you have branches containing master then use.
+ ```
+ git branch | grep -ve " master$" | xargs git branch -D
+ ```
+or
+ ```
+ ack -v "\s+master"
+ ```
