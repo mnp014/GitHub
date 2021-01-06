@@ -1,10 +1,10 @@
 # Delete all branches in local.
 
-- Delete all branches except master and develop.md
+- Delete all branches except `master` branch:
 ```
 git branch | grep -v "master" | xargs git branch -D 
 ```
- - Delete all branches except master and develop.md
+ - Delete all branches except `master` and `develop` branch:
 ```
 git branch | grep -v "master\|develop" | xargs git branch -D
 ```
